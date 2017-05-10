@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="header.js"></script>
+
+    <title>Anthology - Login</title>
+	<link rel="icon" href="http://i.imgur.com/urQqiNM.png" >
+	
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+
+		#sidebar-wrapper{
+			background-color: #3f126b
+		}
+	</style>
+
+</head>
+
+<body onload="on_login_load();" >
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" background-color>
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="./index.html">
+                        <img src="http://i.imgur.com/ymh7BHO.png" alt="Anthology Logo" style="width:200px;height:64px" >
+                    </a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                <li>
+                    <a href="./track.html">Tracking</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+          <div id="login_content">
+						<div style="width: 100%; display: table;">
+							<div style="display: table-row">
+								<div id="login" style="width: 500px;display: table-cell;">
+									<h2>Login</h2>
+                  <h3 id="loginWarn" style="display:none; color:darkred;" >Please login to use Anthology.</h3>
+									<input type="text" size="30" placeholder=" Username" id="username" /> <br> <br>
+									<input type="password" size="30" placeholder=" Password" id="passwordA" /> <br> <br>
+									<input type="button" value="Login" onclick="login()" /> <br> <br>
+								</div>
+
+
+								<div id="create" style="display: table-cell;">
+									<h2>Create an Account</h2>
+                  <input size="30" placeholder="Name" type="text" id="name"/> <br><br>
+									<input type="text" size="30" placeholder=" Username" id="userID" /> <br> <br>
+									<input type="password" size="30" placeholder=" Password" id="password" /> <br> <br>
+									<input type="password" size="30" placeholder=" Confirm Password" id="confPassword" /> <br> <br>
+									<input type="button" value="Create Account" onclick="addUser()" /> <br> <br>
+								</div>
+
+							</div>
+              <div id="users"></div>
+						</div>
+          </div>
+
+          <h3 id="already_loggedin"></h3>
+
+
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a> &nbsp;&nbsp;
+
+<input id="btn_logout" type="button" class="btn btn-default" style="display:none" onclick="logout()" value="Logout" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
