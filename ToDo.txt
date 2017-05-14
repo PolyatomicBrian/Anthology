@@ -1,0 +1,7 @@
+1. FedEx Integration
+2. Ups Integration
+3. Delete Old orders
+4. List orders depending on date, name, etc.
+5. Get password emailed to you.
+6. Have order numbers imported from amazon.
+7. same as 6 but for other sites that give files of orders and their tracking numbers.
