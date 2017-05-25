@@ -19,22 +19,28 @@ No hassle at all. Just make an account and enter your order number.
 * Tracking Integration
 
 ...FedEx
+
 ...UPS
 
-*UI/Aesthetics
+* UI/Aesthetics
 
 ...Adjust site icon.
+
 ...Find workaround against Mali's tab icon. (Favicon?)
 
-*Functionalities
+* Functionalities
 
 ...Delete tracking records
+
 ...Sort packages
+
 ...Import tracking numbers automatically
+
 ...Pull info on product.
+
 ..."Forgot password"
 
-*Security
+* Security
 
 ...Sanitize input
 
