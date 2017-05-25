@@ -16,21 +16,21 @@ No hassle at all. Just make an account and enter your order number.
 
 ### Todo:
 
-*Tracking Integration
-**FedEx
-**UPS
+* Tracking Integration
+...FedEx
+...UPS
 
 *UI/Aesthetics
-**Adjust site icon.
-**Find workaround against Mali's tab icon. (Favicon?)
+...Adjust site icon.
+...Find workaround against Mali's tab icon. (Favicon?)
 
 *Functionalities
-**Delete tracking records
-**Sort packages
-**Import tracking numbers automatically
-**Pull info on product.
-**"Forgot password"
+...Delete tracking records
+...Sort packages
+...Import tracking numbers automatically
+...Pull info on product.
+..."Forgot password"
 
 *Security
-**Sanitize input
+...Sanitize input
 
