@@ -38,7 +38,15 @@ No hassle at all. Just make an account and enter your order number.
 
    Pull info on product.
 
+   Login on "Enter" keypress
+
    "Forgot password"
+   
+* OS Support and Testing
+
+   MacOS
+   
+   OS
 
 * Security
 
